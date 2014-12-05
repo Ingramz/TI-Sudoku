@@ -25,7 +25,7 @@ Algoritmi nuputasin välja ise, tuginedes varasemalt lahendatud 8 lipu probleemi
 
 1) Hoidakse informatsiooni selle kohta, millisesse ritta, veergu või regiooni mõni arv on juba asetatud, et saaks kiirelt kontrollida stiilis "kas (reas|veerus|regioonis) R on asetatud juba arv N?"
 
-2) Tühjadesse ruutudesse alustatakse ülevalt vasakult arvu 1 sisestamist, kui leitakse ruut, kus rea/veeru/regiooni suhtes on 1 asetamine lubatud, minnakse rekursiivselt edasi järgmisele reale sarnast ruutu otsima. Kui read saavad otsa, alustatakse ülevalt numbri 2 sisestamisega jne... Edukalt sisestatud rea korral märgitakse ära, et see arv on reas/veerus/regioonis võetud, et nendesse ei üritata sama arvu enam lisada.
+2) Tühjadesse ruutudesse alustatakse ülevalt vasakult arvu 1 sisestamist, kui leitakse ruut, kus rea/veeru/regiooni suhtes on 1 asetamine lubatud, minnakse rekursiivselt edasi järgmisele reale sarnast ruutu otsima. Kui read saavad otsa, alustatakse ülevalt arvu 2 sisestamisega jne... Edukalt sisestatud rea korral märgitakse ära, et see arv on reas/veerus/regioonis võetud, et nendesse ei üritata sama arvu enam lisada.
 
 3) Kui peaks tekkima olukord, kus arvu ei saa kindla rea peale asetada, minnakse tagasi eelmisele reale järgmist varianti proovima, eelnevalt vabastades selle arvu "võetud" staatus reast/veerust/regioonist. 
 
